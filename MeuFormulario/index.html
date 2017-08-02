@@ -1,2 +1,78 @@
 <!DOCTYPE html>
-<html></html>
+<html>
+    <head>
+        <title> Pagina de Formulário</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Trabalho de Rhavy">
+    </head>
+
+    <body>
+        <form method="post" action="cadastramento.html">
+            <table>
+                <tr>
+                    <td>
+                        <label for="nome">Nome:</label>
+                    <td>
+                        <input type="text" name="nome">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="endereco">Endereço:</label>
+                    <td>
+                        <input type="text" name="endereco">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="estado">Estado:</label>
+                    <td>
+                        <select name="estado">
+                            <Option value="Acre">Acre</Option>
+                            <Option value="Parana">Parana</Option>
+                            <Option value="Tocantins">Tocantins</Option>
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="sexo">Sexo:</label>
+                    <td>
+                        <input type="radio" name="sexo" value="Masculino">Masculino
+                        <input type="radio" name="sexo" value="Feminino">Feminino    
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="Materias preferidas">Materias preferidas:</label>
+                    <td>
+                        <input type="checkbox" name="materias" value="Portugues">Português<td>
+                        <input type="checkbox" name="materias" value="Java">Java<td>
+                        <input type="checkbox" name="materias" value="Matematica">Matemática<td>
+                        <input type="checkbox" name="materias" value="PHP">PHP <td>      
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="Resumo de suas habilidades">Resumo de suas habilidades:</label>
+                    <td>
+                        <textarea name="habilidades">
+                        </textarea>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <input type="submit" value="enviar">
+                    </td>
+                </tr>
+                
+            </table>
+        </form>
+    </body>
+</html>
